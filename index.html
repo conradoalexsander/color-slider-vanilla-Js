@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/reset.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css" />
+	<title>Background slider</title>
+</head>
+
+<body>
+	<div class="content">
+		<div class="grid-container">
+			<div class="header">
+				<h1>Color Slider</h1>
+			</div>
+			<div class="sliders">
+
+				<div class="sliders-content">
+					<ul>
+						<li>
+							<div class="slider-label">
+								(R) Vermelho
+							</div>
+
+						</li>
+
+						<li>
+							<input class="slider" id="redRange" type="range" min="0" max="255" value="125" />
+						</li>
+
+						<li>
+							<input class="inputValue" value="0" id="redInputValue" type="text" disabled />
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<div class="slider-label">
+								(G) Verde
+							</div>
+
+						</li>
+						<li>
+							<input class="slider" id="greenRange" type="range" min="0" max="255" value="125" />
+						</li>
+
+						<li>
+							<input class="inputValue" value="0" id="greenInputValue" type="text" disabled />
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<div class="slider-label">
+								(B) Azul
+							</div>
+
+						</li>
+						<li>
+							<input class="slider" id="blueRange" type="range" min="0" max="255" value="125" />
+						</li>
+
+						<li>
+							<input class="inputValue" value="0" id="blueInputValue" type="text" disabled />
+						</li>
+					</ul>
+				</div>
+
+
+
+
+			</div>
+			<div class="footer">
+				<div id="coloredBlock">
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<script src="js/index.js"></script>
+</body>
+
+</html>
