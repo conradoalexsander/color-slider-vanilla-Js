@@ -8,7 +8,7 @@ You may be asking, "Wonderful, how can I do this"?
 
 Just open the index.html file in <strike>whatever browser</strike> Chrome and you can see the magic, as the GIF below!
 
-PS.: Project created for studying purposes.
+PS.: Project created for studying purposes, IGTI Fullstack Bootcamp.
 
 
 ## Page Screen
